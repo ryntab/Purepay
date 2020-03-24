@@ -1,0 +1,119 @@
+.card-input.field-cardNumber {
+    width: 100%;
+    margin-bottom: 8px;
+}
+.card-input.field-full-name {
+    width: 100%;
+    margin-bottom: 8px;
+}
+.card-input.field-cardExpiryMonth {
+    width: calc(100% / 4);
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+.card-input.field-cardExpiryYear {
+    width: calc(100% / 4);
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+.card-input.field-cardCVV {
+    width: calc(100% / 4);
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+form#PurePay_payment_form {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jp-card .jp-card-front, .jp-card .jp-card-back {
+    background: #5B5B5B;
+}
+.button.alt {
+    width: 100%;
+}
+.button.cancel {
+    width: 100%;
+    text-align: center;
+}
+.pure-pay-logo {
+    background-image: url('/wp-content/plugins/woo-purepay-pro/img/purepaypng.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 9;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: 30px;
+}
+.pure-pay-footer {
+    width: 100%;
+}
+
+.pure-pay-footer-logo {
+    background-image: url("/wp-content/plugins/woo-purepay-pro/img/pay_logo.png");
+    width: auto;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pure-pay-footer-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    color:white;
+}
+ 
+  .rowPure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    color:white;
+  }
+  
+  .columnPure {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .pure-col1 {
+    background-color: #e7e7e7;
+    height: 4rem;
+    color:white;
+    padding-left: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .pure-col2 {
+    background-color: #e7e7e7;
+    height: 4rem;
+    color:white;
+    padding-right: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .pure-pay-link{
+    color: #2f2f2f;
+    font-size: 14px;
+  }
+
+  .lock-vector{
+    vertical-align: middle;
+  }
