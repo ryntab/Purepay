@@ -376,7 +376,7 @@
 				)
 			);
 			
-			$form = '<form action="' . '//' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI] . '&step=2" method="post" id="' . $this->gateway . '_payment_form">';
+			$form = '<form action="' . '//' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . '&step=2" method="post" id="' . $this->gateway . '_payment_form">';
 
 			foreach ($fields as $key => $value) {
 				//$form .= '<label class="card-label label-' . $key . '">' . $value['name'] . '</label>'; Removed Labels 11/21/19
