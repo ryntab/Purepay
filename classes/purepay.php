@@ -242,7 +242,7 @@
 				'merchantID'        => $this->settings['merchantID'],
 				'amount'            => $amount,
 				'countryCode'       => $this->settings['countryCode'],
-				'currencyCode'      => $order->get_order_currency(),
+				'currencyCode'      => $order->get_currency(),
 				'transactionUnique' => $order->get_order_key() . '-' . time(),
 				'orderRef'          => $order_id,
 				'customerName'      => $order->get_billing_first_name() . ' ' . $order->get_billing_last_name(),
