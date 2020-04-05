@@ -85,38 +85,40 @@
 			add_action('woocommerce_api_wc_' . $this->id, array($this, 'process_response'));
 			add_action('woocommerce_api_wc_' . $this->id . '_callback', array($this, 'process_response'));
 
-			add_action('get_footer', 'your_function');			
+			add_action('get_footer', 'render_footer');			
 
 
 			/* 3.0.0 Subscriptions */
 			add_action('woocommerce_scheduled_subscription_payment_purepay', array( $this, 'scheduled_subscription_payment'),10,3);
-			
-			function wpb_adding_scripts() { // Register our scripts only when function call
-				wp_register_script('checkout_card_js', plugin_dir_url( __FILE__ ) . 'extra/jquery.card.js', true);
-				wp_register_script('checkout_js', plugin_dir_url( __FILE__ ) . 'extra/checkout-card.min.js', true);
-				wp_register_style('form_style', plugin_dir_url( __FILE__ ) . 'extra/form-style.css', true);
-				wp_enqueue_script('checkout_card_js');
-				wp_enqueue_script('checkout_js');
-				wp_enqueue_style('form_style');
+			if(!function_exists('wpb_adding_scripts')){
+				function wpb_adding_scripts() { // Register our scripts only when function call
+					wp_register_script('checkout_card_js', plugin_dir_url( __FILE__ ) . 'extra/jquery.card.js', true);
+					wp_register_script('checkout_js', plugin_dir_url( __FILE__ ) . 'extra/checkout-card.min.js', true);
+					wp_register_style('form_style', plugin_dir_url( __FILE__ ) . 'extra/form-style.css', true);
+					wp_enqueue_script('checkout_card_js');
+					wp_enqueue_script('checkout_js');
+					wp_enqueue_style('form_style');
+				}
 			}
-
-			function your_function() {
-				  $content = '
-				  <div class="pure-pay-footer">
-  						<div class="rowPure">
-    						<div class="columnPure">
-								<div class="pure-col1">
-									<div class="pure-pay-footer-logo"></div>
+			if(!function_exists('render_footer')){
+				function render_footer() {
+					$content = '
+					<div class="pure-pay-footer">
+							<div class="rowPure">
+								<div class="columnPure">
+									<div class="pure-col1">
+										<div class="pure-pay-footer-logo"></div>
+									</div>
 								</div>
-    						</div>
-    						<div class="columnPure">
-      							<div class="pure-col2">
-								  <a class="pure-pay-link" href="https://purepay.eu/">Secured by PurePay <svg height="12px" width="12px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock" class="lock-vector svg-inline--fa fa-lock fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"></path></svg></a>
-      							</div>
-    						</div>
-  						</div>
-					</div>';
-  				echo $content;
+								<div class="columnPure">
+									<div class="pure-col2">
+									<a class="pure-pay-link" href="https://purepay.eu/">Secured by PurePay <svg height="12px" width="12px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock" class="lock-vector svg-inline--fa fa-lock fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"></path></svg></a>
+									</div>
+								</div>
+							</div>
+						</div>';
+					echo $content;
+				}
 			}
 		}
 		
