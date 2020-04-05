@@ -6,7 +6,7 @@ This module enables the use of purepay.eu payment gateway using the Woocommerce 
 COMPATIBILITY
 ------------
 
-Compatible with version 3.2 of Woocommerce and upto 4.9.4 of Wordpress. 
+Compatible with version 3.2 of Woocommerce and upto 5.4 of Wordpress. 
 
 INTRODUCTION
 ------------
