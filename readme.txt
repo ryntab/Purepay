@@ -1,9 +1,9 @@
 === Plugin Name ===
-Contributors: purepay
+Contributors: purepay, ryantaber
 Donate link: https://purepay.eu/
-Tags: payment, gateway, purepay
+Tags: payment, gateway, purepay, high risk payment
 Requires at least: 4.0
-Tested up to: 5.1
+Tested up to: 5.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,3 +50,7 @@ This option requires access to your servers directory.
 * Correct wordpress-escaped responses
 = 1.4 =
 * Adds support for WooCommerce Subscriptions
+= 1.5 =
+* Adds interactive card for direct checkout method
+* Adds support for Woocommerce 4.0.1
+* Tested for Wordpress 5.4
