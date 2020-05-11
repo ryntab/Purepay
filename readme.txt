@@ -54,3 +54,5 @@ This option requires access to your servers directory.
 * Adds interactive card for direct checkout method
 * Adds support for Woocommerce 4.0.1
 * Tested for Wordpress 5.4
+= 1.6 =
+* Adds multilingual support

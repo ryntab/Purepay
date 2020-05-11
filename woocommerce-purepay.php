@@ -74,8 +74,8 @@ function add_purepay_paymentgateway($methods) {
 /**
  * Load plugin textdomain.
  */
-function wpdocs_load_textdomain() {
+function Purepay_load_textdomain() {
   load_plugin_textdomain( 'Purepay', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
 }
 
-add_action( 'plugins_loaded', 'wpdocs_load_textdomain', 0 );
+add_action( 'plugins_loaded', 'Purepay_load_textdomain', 0 );
