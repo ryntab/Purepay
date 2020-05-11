@@ -1,0 +1,179 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce PurePay\n"
+"POT-Creation-Date: 2020-05-10 23:38-0400\n"
+"PO-Revision-Date: 2020-05-10 23:37-0400\n"
+"Last-Translator: Ryan Taber"
+"Language-Team: Ryan Taber"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-purepay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/purepay.php:29
+msgid " hosted works by sending the user to "
+msgstr ""
+
+#: classes/purepay.php:133
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/purepay.php:134
+msgid "Enable "
+msgstr ""
+
+#: classes/purepay.php:141
+msgid "Title"
+msgstr ""
+
+#: classes/purepay.php:143
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: classes/purepay.php:148
+msgid "Type of integration"
+msgstr ""
+
+#: classes/purepay.php:155
+msgid "This controls method of integration."
+msgstr ""
+
+#: classes/purepay.php:160
+msgid "Description"
+msgstr ""
+
+#: classes/purepay.php:162
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: classes/purepay.php:167
+msgid "Merchant ID"
+msgstr ""
+
+#: classes/purepay.php:169
+msgid "Please enter your "
+msgstr ""
+
+#: classes/purepay.php:174
+msgid "Signature Key"
+msgstr ""
+
+#: classes/purepay.php:176
+msgid ""
+"Please enter the signature key for the merchant account. This can be changed "
+"in the <a href=\""
+msgstr ""
+
+#: classes/purepay.php:181
+msgid "Responsive form"
+msgstr ""
+
+#: classes/purepay.php:187
+msgid "This controls whether the payment form is responsive."
+msgstr ""
+
+#: classes/purepay.php:192
+msgid "Gateway URL"
+msgstr ""
+
+#: classes/purepay.php:194
+msgid "Allows the use of custom forms. Leave blank to use default"
+msgstr ""
+
+#: classes/purepay.php:198
+msgid "Country Code"
+msgstr ""
+
+#: classes/purepay.php:200
+msgid ""
+"Please enter your 3 digit <a href=\"http://en.wikipedia.org/wiki/"
+"ISO_3166-1\" target=\"_blank\">ISO country code</a>"
+msgstr ""
+
+#: classes/purepay.php:205
+msgid "Failed Order Message"
+msgstr ""
+
+#: classes/purepay.php:207
+msgid ""
+"Use this feild to customize the message shown when a customers card is "
+"declined."
+msgstr ""
+
+#: classes/purepay.php:297
+msgid "Thank you for your order, please click the button below to pay with "
+msgstr ""
+
+#: classes/purepay.php:303 classes/purepay.php:398
+msgid "Pay securely via "
+msgstr ""
+
+#: classes/purepay.php:304 classes/purepay.php:399
+msgid "Cancel order"
+msgstr ""
+
+#: classes/purepay.php:469 classes/purepay.php:642 classes/purepay.php:676
+#: classes/purepay.php:770
+msgid "Payment error: "
+msgstr ""
+
+#: classes/purepay.php:477
+msgid ""
+" payment failed. Communication error with server or an empty response was "
+"received"
+msgstr ""
+
+#: classes/purepay.php:637 classes/purepay.php:760
+msgid " payment completed."
+msgstr ""
+
+#: classes/purepay.php:647
+msgid " payment failed."
+msgstr ""
+
+#: classes/purepay.php:649
+msgid "Payment error: Your Card Was Declined or Rejected."
+msgstr ""
+
+#: classes/purepay.php:682 classes/purepay.php:771
+msgid " payment failed"
+msgstr ""
+
+#: classes/purepay.php:765
+msgid " payment failed with signature error."
+msgstr ""
+
+#: woocommerce-purepay.php:60
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce PurePay"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://woothemes.com/woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Provides the PurePay Payment Gateway for WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PurePay"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.purepay.eu/"
+msgstr ""

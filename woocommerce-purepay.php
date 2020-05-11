@@ -5,6 +5,8 @@ Plugin URI: http://woothemes.com/woocommerce/
 Description: Provides the PurePay Payment Gateway for WooCommerce
 Version: 1.5
 Author: PurePay
+Text Domain: Purepay
+Domain Path: /languages
 Author URI: http://www.purepay.eu/
 License: GPL2
 */
@@ -66,3 +68,14 @@ function add_purepay_paymentgateway($methods) {
 	$methods[] = 'WC_PurePay';
 	return $methods;
 }
+
+
+  
+/**
+ * Load plugin textdomain.
+ */
+function wpdocs_load_textdomain() {
+  load_plugin_textdomain( 'Purepay', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+}
+
+add_action( 'plugins_loaded', 'wpdocs_load_textdomain', 0 );

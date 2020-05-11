@@ -14,13 +14,13 @@ class WC_PurePay extends WC_Payment_Gateway {
 	public  $gateway_url = '';
 
 	public static $lang;
-
+	
 	public function __construct() {
 
 		$id = str_replace(' ', '', strtolower($this->gateway));
 
 		// Language translation module to use
-		self::$lang = strtolower('woocommerce_' . $id);
+		self::$lang = 'Purepay';
 
 		$this->has_fields          = false;
 		$this->id                  = $id;

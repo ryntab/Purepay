@@ -1,163 +1,171 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <ryantaber17@gmail.com>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-06 16:03-0400\n"
-"PO-Revision-Date: 2020-05-06 16:29-0500\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2020-05-06 17:09-0400\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
-"X-Generator: Eazy Po 0.9.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: Ryan Taber"
+"Language: de\n"
 
 #: woocommerce-purepay.php:59
 msgid "Settings"
-msgstr " Réglages"
+msgstr "die Einstellungen"
 
 #: classes/purepay.php:29
 msgid " hosted works by sending the user to "
-msgstr "La « solution » hébergée de PurePay fonctionne en redirigeant l’utilisateur sur PurePay afin de saisir ses informations de paiement"
+msgstr ""
+" In de door PurePay gehoste \"oplossing” wordt de gebruiker voor het "
+"invullen van zijn/haar betalingsgegevens naar PurePay doorgestuurd "
 
 #: classes/purepay.php:133
 msgid "Enable/Disable"
-msgstr "Activer/Désactiver"
+msgstr "Inschakelen/Uitschakelen"
 
 #: classes/purepay.php:134
 msgid "Enable "
-msgstr "Activer"
+msgstr "Inschakelen "
 
 #: classes/purepay.php:141
 msgid "Title"
-msgstr " Titre"
+msgstr "Titel"
 
 #: classes/purepay.php:143
 msgid "This controls the title which the user sees during checkout."
-msgstr "Cela contrôle le titre que le client voit lors du paiement."
+msgstr "Dies steuert den Titel, den der Benutzer beim Auschecken sieht."
 
 #: classes/purepay.php:148
 msgid "Type of integration"
-msgstr "Type d’intégration"
+msgstr "Type integratie"
 
 #: classes/purepay.php:155
 msgid "This controls method of integration."
-msgstr "Cela contrôle la description que le client voit lors du paiement."
+msgstr "Dies steuert die Integrationsmethode."
 
 #: classes/purepay.php:160
 msgid "Description"
-msgstr "Description"
+msgstr "Beschreibung"
 
 #: classes/purepay.php:162
 msgid "This controls the description which the user sees during checkout."
-msgstr "Cela contrôle la description que le client voit lors du paiement."
+msgstr ""
+"Diese steuert die Beschreibung, die der Benutzer beim Auschecken sieht."
 
 #: classes/purepay.php:167
 msgid "Merchant ID"
-msgstr "Identifiant du commerçant"
+msgstr "Händler-ID"
 
 #: classes/purepay.php:169
 msgid "Please enter your "
-msgstr "Veuillez saisir votre identifiant de commerçant PurePay"
+msgstr "Bitte geben Sie Ihre "
 
 #: classes/purepay.php:174
 msgid "Signature Key"
-msgstr "Clé de signature"
+msgstr "Signatur-Schlüssel"
 
 #: classes/purepay.php:176
 msgid ""
 "Please enter the signature key for the merchant account. This can be changed "
 "in the <a href=\""
 msgstr ""
-"Veuillez saisir la clé de signature pour le compte du commerçant. Cela peut "
-"être modifié dans le MMS"
+"Bitte geben Sie den Signaturschlüssel für das Händlerkonto ein. Dieser kann "
+"in der"
 
 #: classes/purepay.php:181
 msgid "Responsive form"
-msgstr "Formulaire adaptatif"
+msgstr "Ansprechbare Form"
 
 #: classes/purepay.php:187
 msgid "This controls whether the payment form is responsive."
-msgstr "Cela contrôle si le formulaire de paiement est adaptatif."
+msgstr "Damit wird gesteuert, ob das Zahlungsformular ansprechbar ist."
 
 #: classes/purepay.php:192
 msgid "Gateway URL"
-msgstr "URL de la passerelle"
+msgstr "Gateway-URL"
 
 #: classes/purepay.php:194
 msgid "Allows the use of custom forms. Leave blank to use default"
-msgstr "Permet l’utilisation de formulaires personnalisés. À laisser vide pour l’option par défaut"
+msgstr ""
+"Erlaubt die Verwendung von benutzerdefinierten Formularen. Leer lassen für "
+"die Verwendung von Standardformularen"
 
 #: classes/purepay.php:198
 msgid "Country Code"
-msgstr "Code du pays"
+msgstr "Ländercode"
 
 #: classes/purepay.php:200
 msgid ""
 "Please enter your 3 digit <a href=\"http://en.wikipedia.org/wiki/"
 "ISO_3166-1\" target=\"_blank\">ISO country code</a>"
-msgstr "Veuillez saisir votre code pays ISO à 3 chiffres"
+msgstr ""
+"Bitte geben Sie Ihren 3-stelligen <a href=\"http://en.wikipedia.org/wiki/"
+"ISO_3166-1\" target=\"_blank\">ISO-Ländercode</a> ein"
 
 #: classes/purepay.php:205
 msgid "Failed Order Message"
-msgstr "Message d’échec de commande"
+msgstr "Nachricht über fehlgeschlagene Bestellung"
 
 #: classes/purepay.php:207
 msgid ""
 "Use this feild to customize the message shown when a customers card is "
 "declined."
 msgstr ""
-"Utilisez ce champ pour personnaliser le message affiché lorsqu’une carte de "
-"client est refusée."
+"Mit diesem Feld können Sie die Meldung anpassen, die angezeigt wird, wenn "
+"eine Kundenkarte abgelehnt wird."
 
 #: classes/purepay.php:297
 msgid "Thank you for your order, please click the button below to pay with "
-msgstr "Merci pour votre commande, veuillez cliquer sur le bouton ci-dessous pour payer avec"
+msgstr ""
+"Vielen Dank für Ihre Bestellung, bitte klicken Sie auf die Schaltfläche "
+"unten, um mit "
 
 #: classes/purepay.php:303 classes/purepay.php:398
 msgid "Pay securely via "
-msgstr "Payez en toute sécurité via"
+msgstr "Sicher bezahlen über "
 
 #: classes/purepay.php:304 classes/purepay.php:399
 msgid "Cancel order"
-msgstr "Annuler la commande"
+msgstr "Bestellung stornieren"
 
 #: classes/purepay.php:469 classes/purepay.php:642 classes/purepay.php:676
 #: classes/purepay.php:770
 msgid "Payment error: "
-msgstr "Erreur de paiement"
+msgstr "Zahlungsfehler: "
 
 #: classes/purepay.php:477
 msgid ""
 " payment failed. Communication error with server or an empty response was "
 "received"
 msgstr ""
-"paiement échoué. Une erreur de communication avec le serveur ou une réponse "
-"vide a été reçue"
+" Zahlung fehlgeschlagen. Kommunikationsfehler mit dem Server oder eine leere "
+"Antwort wurde empfangen"
 
 #: classes/purepay.php:637 classes/purepay.php:760
 msgid " payment completed."
-msgstr "paiement terminé."
+msgstr " Zahlung abgeschlossen."
 
 #: classes/purepay.php:647
 msgid " payment failed."
-msgstr "paiement échoué"
+msgstr " Zahlung fehlgeschlagen."
 
 #: classes/purepay.php:649
 msgid "Payment error: Your Card Was Declined or Rejected."
-msgstr "Erreur de paiement: votre carte a été refusée ou refusée."
+msgstr "Zahlungsfehler: Ihre Karte wurde abgelehnt oder zurückgewiesen."
 
 #: classes/purepay.php:682 classes/purepay.php:771
 msgid " payment failed"
-msgstr " paiement échoué"
+msgstr " Zahlung fehlgeschlagen"
 
 #: classes/purepay.php:765
 msgid " payment failed with signature error."
-msgstr " le paiement a échoué avec une erreur de signature."
+msgstr " Zahlung mit Unterschriftsfehler fehlgeschlagen."
