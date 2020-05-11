@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce PurePay
 Plugin URI: http://woothemes.com/woocommerce/
 Description: Provides the PurePay Payment Gateway for WooCommerce
-Version: 1.5
+Version: 1.6
 Author: PurePay
 Text Domain: Purepay
 Domain Path: /languages
