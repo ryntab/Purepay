@@ -85,9 +85,10 @@ class WC_PurePay extends WC_Payment_Gateway {
 		add_action('woocommerce_api_wc_' . $this->id, array($this, 'process_response'));
 		add_action('woocommerce_api_wc_' . $this->id . '_callback', array($this, 'process_response'));
 
-		add_action('get_footer', 'render_footer');			
-
-
+		if (is_checkout) {
+			add_action('get_footer', 'render_footer');
+		}
+		
 		/* 3.0.0 Subscriptions */
 		add_action('woocommerce_scheduled_subscription_payment_purepay', array( $this, 'scheduled_subscription_payment'),10,3);
 		if(!function_exists('wpb_adding_scripts')){
